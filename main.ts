@@ -34,7 +34,7 @@ basic.forever(function () {
         if (currentposition + 1 < 64) {
             display.setPixelColorAt(currentposition, GAME_ZIP64.colors(ZipLedColors.Blue))
             currentposition += 1
-            display.setPixelColorAt(currentposition, GAME_ZIP64.rgb(255, 0, 5))
+            display.setPixelColorAt(currentposition, GAME_ZIP64.rgb(255, 15, 50))
             display.show()
             basic.pause(200)
         } else {
@@ -48,7 +48,7 @@ basic.forever(function () {
         if (currentposition + 7 < 63) {
             display.setPixelColorAt(currentposition, GAME_ZIP64.colors(ZipLedColors.Blue))
             currentposition += 8
-            display.setPixelColorAt(currentposition, GAME_ZIP64.rgb(255, 0, 5))
+            display.setPixelColorAt(currentposition, GAME_ZIP64.rgb(255, 15, 50))
             display.show()
             basic.pause(200)
         } else {
@@ -62,7 +62,7 @@ basic.forever(function () {
         if (currentposition - -1 > -1) {
             display.setPixelColorAt(currentposition, GAME_ZIP64.colors(ZipLedColors.Blue))
             currentposition += -1
-            display.setPixelColorAt(currentposition, GAME_ZIP64.rgb(255, 0, 5))
+            display.setPixelColorAt(currentposition, GAME_ZIP64.rgb(255, 15, 50))
             display.show()
             basic.pause(200)
         } else {
@@ -76,7 +76,7 @@ basic.forever(function () {
         if (currentposition - 8 > -1) {
             display.setPixelColorAt(currentposition, GAME_ZIP64.colors(ZipLedColors.Blue))
             currentposition += -8
-            display.setPixelColorAt(currentposition, GAME_ZIP64.rgb(255, 0, 5))
+            display.setPixelColorAt(currentposition, GAME_ZIP64.rgb(255, 15, 50))
             display.show()
             basic.pause(200)
         } else {
